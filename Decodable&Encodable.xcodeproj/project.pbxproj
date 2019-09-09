@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		833308D2230B1DEC0018354D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833308D1230B1DEC0018354D /* AppDelegate.swift */; };
-		833308D4230B1DEC0018354D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833308D3230B1DEC0018354D /* ViewController.swift */; };
 		833308D7230B1DEC0018354D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 833308D5230B1DEC0018354D /* Main.storyboard */; };
 		833308D9230B1DF00018354D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 833308D8230B1DF00018354D /* Assets.xcassets */; };
 		833308DC230B1DF00018354D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 833308DA230B1DF00018354D /* LaunchScreen.storyboard */; };
+		833308EC230B22080018354D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833308EB230B22080018354D /* ViewController.swift */; };
+		834F03D1230BAF600053AA76 /* EncodableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834F03D0230BAF600053AA76 /* EncodableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		833308CE230B1DEC0018354D /* Decodable&Encodable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Decodable&Encodable.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		833308D1230B1DEC0018354D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		833308D3230B1DEC0018354D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		833308D6230B1DEC0018354D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		833308D8230B1DF00018354D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		833308DB230B1DF00018354D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		833308DD230B1DF00018354D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		833308EB230B22080018354D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		834F03D0230BAF600053AA76 /* EncodableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncodableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +57,9 @@
 			isa = PBXGroup;
 			children = (
 				833308D1230B1DEC0018354D /* AppDelegate.swift */,
-				833308D3230B1DEC0018354D /* ViewController.swift */,
 				833308D5230B1DEC0018354D /* Main.storyboard */,
+				833308EB230B22080018354D /* ViewController.swift */,
+				834F03D0230BAF600053AA76 /* EncodableViewController.swift */,
 				833308D8230B1DF00018354D /* Assets.xcassets */,
 				833308DA230B1DF00018354D /* LaunchScreen.storyboard */,
 				833308DD230B1DF00018354D /* Info.plist */,
@@ -135,7 +138,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				833308D4230B1DEC0018354D /* ViewController.swift in Sources */,
+				834F03D1230BAF600053AA76 /* EncodableViewController.swift in Sources */,
+				833308EC230B22080018354D /* ViewController.swift in Sources */,
 				833308D2230B1DEC0018354D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,6 +289,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G5HCUTK7P8;
 				INFOPLIST_FILE = "Decodable&Encodable/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,6 +308,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G5HCUTK7P8;
 				INFOPLIST_FILE = "Decodable&Encodable/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
